@@ -26,6 +26,15 @@ public static DriverConfigValues getDriver()	throws ConfigurationException
 	String URL=null;
 	String bwser = null;
 	
+	String hungry="Y";
+	if(hungry.equals("Y"))
+	{
+		System.out.println("eat");
+	}
+	else
+	{
+		System.out.println("continue");
+	}
 	try
 	{
 	Map<String, String> env = System.getenv();
