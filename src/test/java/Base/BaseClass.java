@@ -27,7 +27,7 @@ public static DriverConfigValues getDriver()	throws ConfigurationException
 	String bwser = null;
 	
 	String hungry="Y";
-	if(hungry.equals("Y"))
+	if(hungry.equals("Y") || hungry.equals("YES") || hungry.equals("yes"))
 	{
 		System.out.println("eat");
 	}
