@@ -26,9 +26,8 @@ public static DriverConfigValues getDriver()	throws ConfigurationException
 	String URL=null;
 	String bwser = null;
 	
+	System.out.println("User1 and User2 adding this statement");
 
-	System.out.println("User2 adding this statement");
-	
 	try
 	{
 	Map<String, String> env = System.getenv();
