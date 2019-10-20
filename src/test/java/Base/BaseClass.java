@@ -27,23 +27,8 @@ public static DriverConfigValues getDriver()	throws ConfigurationException
 	String bwser = null;
 	
 
-	String hungry = "yes";
-	if(hungry.equals("yes")){
-		System.out.println("Eat something");
-	}
-	else
-	{
-		System.out.println("continue work");
-	}
+	System.out.println("User2 adding this statement");
 	
-	if(hungry.equals("Y") || hungry.equals("YES") || hungry.equals("yes") || hungry.equals("y"))
-	{
-		System.out.println("eat");
-	}
-	else
-	{
-		System.out.println("continue");
-	}
 	try
 	{
 	Map<String, String> env = System.getenv();

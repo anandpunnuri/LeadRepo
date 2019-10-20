@@ -57,6 +57,7 @@ public class googlecricket
 	@AfterClass(alwaysRun=true)
 	public void closelogger()
 	{
+		//user2 adding this statement.
 		logger = null;
 		//final Logger logger = Logger.getLogger(this.getClass());
 	}
